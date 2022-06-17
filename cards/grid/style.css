@@ -112,6 +112,7 @@ body{
     align-items: center;
     background-color: #f2f2f2;
     background-image: url(./assets/images/bg-intro-desktop.png);
+    background-image: url(./assets/images/bg-intro-mobile.png);
 }
 
 .container{
