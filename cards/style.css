@@ -1,24 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200;300;400;500;600&display=swap');
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
-/* font-family: 'Poppins', sans-serif; */
-
-.items{
-    background-color: #f3ca97
-    min-height: 100vh;
+/* font-family: 'Big Shoulders Display', cursive; */
+/* font-family: 'Lexend Deca', sans-serif; */
+/* body{
     display: flex;
-    flex-direction: row;
     align-items: center;
+    margin-left: 20%;
+    background-color: hsl(0, 0%, 95%);
+} */
+.container{
+    display: flex;
+    margin-top: 100px;
+    padding: 200px;
+    align-content: center;
     justify-content: center;
-    padding: 20px;
-
 }
 .item{
-    background-color: #006970;
+    background-color: hsl(184, 100%, 22%);
     min-height: 25rem;
     max-width: 17rem;
     padding: 2.5rem;
@@ -30,12 +28,12 @@
 }
 
 .item h1{
-    color: #f2f2f2;
+    color: hsl(0, 0%, 95%);
     font-size: 2.3rem;
     font-family: 'Poppins', sans-serif;
 }
 .item p{
-    color: #f2f2f2;
+    color: hsl(0, 0%, 95%);
     font-family: 'Poppins', sans-serif;
     margin-top: 1.5rem;
     margin-bottom: 6rem;
@@ -43,56 +41,69 @@
 
 .item button{
     position: absolute;
-    background: #f2f2f2;
-    border: 2px solid #f2f2f2;
+    background: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
     text-align: center;
     padding: 12px 18px;
     bottom: 0;
     margin-bottom: 2rem;
     border-radius: 30px;
-    color: #006970;
+    color: hsl(184, 100%, 22%);
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
 }
 
 .first{
-    background-color: #e38826;
+    background-color: hsl(31, 77%, 52%);
+    min-height: 25rem;
+    max-width: 17rem;
+    padding: 2.5rem;
+    position: relative;
+    border-radius: 6px 0px 0px 6px;
+    }
+
+    .first:hover{
+        background-color: hsl(31, 79%, 44%);;
+    }
+
+.second{
+    background-color: hsl(184, 100%, 22%);
     min-height: 25rem;
     max-width: 17rem;
     padding: 2.5rem;
     position: relative;
 }
 
-.second{
-    background-color: #006970;
-    min-height: 25rem;
-    max-width: 17rem;
-    padding: 2.5rem;
-    position: relative;
+.second:hover{
+    background-color:hsl(186, 32%, 23%); 
 }
 
 .third{
-    background-color: #004241;
+    background-color: hsl(179, 65%, 12%);
     min-height: 25rem;
     max-width: 17rem;
     padding: 2.5rem;
     position: relative;
+    border-radius: 0px 6px 6px 0px;
+}
+.third:hover{
+    background-color:hsl(180, 67%, 7%);
 }
 .first button{
-    color: #e38826;
+    color: hsl(31, 77%, 52%);
 }
 
 .second button{
-   color: #006970;
+   color: hsl(184, 100%, 22%);
 }
 
 .third button{
-   color: #004241;
+   color: hsl(179, 100%, 13%);
 }
 
 button:hover{
     background-color: transparent;
-    color: #f2f2f2;
+    color: hsl(0, 0%, 95%);
 }
 
 @media(max-width:950px){
@@ -104,12 +115,4 @@ button:hover{
         min-width: 22rem;
     }   
 }
-
-body{
-    display: flex;
-    align-items: center;
-    margin-left: 20%;
-    background-color: #f2f2f2;
-}
-
 
