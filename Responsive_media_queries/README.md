@@ -1,1 +1,1 @@
-responsive media query page
+updated responsive registration page
